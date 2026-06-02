@@ -1,11 +1,11 @@
 <template>
-  <svg class="logo-svg" viewBox="0 0 56 61" xmlns="http://www.w3.org/2000/svg" height="60" width="56">
-    <use href="#logo-path" />
-  </svg>
+  <img src="/meta/favicon-96x96.png" class="logo-img" alt="Logo" />
 </template>
 
 <style scoped lang="scss">
-.logo-svg {
-  fill: var(--icon-color);
+.logo-img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 </style>
