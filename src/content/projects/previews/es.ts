@@ -1,47 +1,66 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
-//import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
-import thumbnailStreakon from "../../../assets/thumbnails/streakon.webp";
+import { projectMedia } from "../media";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "StreakOn",
-    slug: "streakon",
-    thumbnail: thumbnailStreakon,
-    description: "App de hábitos diarios",
+    title: "Inventory Management",
+    slug: "inventory-management",
+    thumbnail: projectMedia["inventory-management"].thumbnail,
+    description: "App de inventario con ventas y control de stock",
   },
   {
-    title: "CubeWar",
-    slug: "cubewar",
-    thumbnail: thumbnailCubeWar,
-    description: "Juego de estrategia multijugador",
+    title: "Expresso Inventory",
+    slug: "inventory-system",
+    thumbnail: projectMedia["inventory-system"].thumbnail,
+    description: "Plugin de inventario Godot con craft y loot",
   },
   {
-    title: "Quibbo",
-    slug: "quibbo",
-    thumbnail: thumbnailQuibbo,
-    description: "Plataforma de juegos multijugador",
+    title: "Inventory App React",
+    slug: "inventory-app-react",
+    thumbnail: projectMedia["inventory-app-react"].thumbnail,
+    description: "Gestión de inventario con React y Vite",
   },
   {
-    title: "Sharkie",
-    slug: "sharkie",
-    thumbnail: thumbnailSharkie,
-    description: "Juego de aventuras 2D",
+    title: "ERP Servidor Local",
+    slug: "erp-servidor-local",
+    thumbnail: projectMedia["erp-servidor-local"].thumbnail,
+    description: "ERP autohospedado para almacén y compras",
   },
-  /**  {
-    title: "Partículas WebGL",
-    slug: "particles",
-    thumbnail: thumbnailParticles,
-    description: "Partículas 3D dinámicas",
-  }, */
   {
-    title: "Pokédex",
-    slug: "pokedex",
-    thumbnail: thumbnailPokedex,
-    description: "Proyecto de aprendizaje de código abierto",
+    title: "Espectrosoft ERP",
+    slug: "erp",
+    thumbnail: projectMedia.erp.thumbnail,
+    description: "ERP full-stack con React y API Express",
+  },
+  {
+    title: "Point of Sale (POS)",
+    slug: "pos-csharp",
+    thumbnail: projectMedia["pos-csharp"].thumbnail,
+    description: "POS en C# con roles, stock y facturación",
+  },
+  {
+    title: "Cemetery Web",
+    slug: "cementery-web",
+    thumbnail: projectMedia["cementery-web"].thumbnail,
+    description: "Plataforma de gestión de cementerio en Pillaro",
+  },
+  {
+    title: "Triangle POS",
+    slug: "triangle-pos",
+    thumbnail: projectMedia["triangle-pos"].thumbnail,
+    description: "POS Laravel para ventas, stock e informes",
+  },
+  {
+    title: "GITT System",
+    slug: "gitt",
+    thumbnail: projectMedia.gitt.thumbnail,
+    description: "Inventario de equipos con códigos de barras",
+  },
+  {
+    title: "BioAccess",
+    slug: "bioacces",
+    thumbnail: projectMedia.bioacces.thumbnail,
+    description: "Acceso biométrico con reconocimiento facial",
   },
 ] as const satisfies ProjectPreview[];
