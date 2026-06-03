@@ -99,7 +99,7 @@ const openContactModal = () => {
       data-hoversound="hover"
       data-cursor="circle-white"
     >
-      <Logo class="header-logo-image" />
+      <Logo class="header-logo-image" :isDark="isDarkTheme" />
     </div>
     <div class="header-right">
       <LangSwitch class="header-lang-switch" />
