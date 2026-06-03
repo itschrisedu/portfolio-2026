@@ -23,10 +23,9 @@ const handleLangSwitch = () => {
 
 <style scoped lang="scss">
 .lang-switch-button {
-  color: inherit;
-
   :deep(.button-wrapper) {
-    color: inherit;
+    color: var(--color-text-400);
+    border-color: var(--color-text-300);
   }
 }
 </style>

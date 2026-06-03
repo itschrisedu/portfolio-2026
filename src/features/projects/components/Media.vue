@@ -62,6 +62,7 @@ onMounted(async () => {
         loading="lazy"
         fetchpriority="high"
         class="project-media-image"
+        :class="{ 'contain-image': props.src.includes('municipio-pillaro') }"
         ref="mediaRef"
       />
       <video
@@ -158,6 +159,12 @@ onMounted(async () => {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    &.contain-image {
+      object-fit: contain;
+      background-color: white;
+      padding: var(--space-md);
+    }
   }
 
   &-video {

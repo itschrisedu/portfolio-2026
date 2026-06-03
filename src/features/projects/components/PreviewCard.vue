@@ -174,6 +174,9 @@ onUnmounted(() => {
   }
 
   &-button {
+    --color-accent-400: var(--color-orange-400);
+    --color-accent-text-400: var(--color-white-400);
+
     &-arrow {
       transition: transform 0.1s ease-in-out;
       width: 100%;

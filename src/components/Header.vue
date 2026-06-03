@@ -149,6 +149,8 @@ const openContactModal = () => {
     transition: opacity 0.2s ease-in-out;
     transition-delay: 0.1s;
     pointer-events: auto;
+    --color-accent-400: var(--color-orange-400);
+    --color-accent-text-400: var(--color-white-400);
 
     &-icon {
       width: 100%;
@@ -170,6 +172,8 @@ const openContactModal = () => {
 
   &-get-in-touch {
     width: fit-content;
+    --color-accent-400: var(--color-orange-400);
+    --color-accent-text-400: var(--color-white-400);
 
     &-isProjectPage {
       opacity: 1 !important;
