@@ -2,7 +2,7 @@ import type { Locale } from "../../i18n/types";
 
 export const projectIds = [
   "inventory-management",
-  "inventory-system",
+  "movipass-frontend",
   "inventory-app-react",
   "erp-servidor-local",
   "erp",

@@ -10,10 +10,10 @@ export default [
     description: "App de inventario con ventas y control de stock",
   },
   {
-    title: "Expresso Inventory",
-    slug: "inventory-system",
-    thumbnail: projectMedia["inventory-system"].thumbnail,
-    description: "Plugin de inventario Godot con craft y loot",
+    title: "MoviPass Frontend",
+    slug: "movipass-frontend",
+    thumbnail: projectMedia["movipass-frontend"].thumbnail,
+    description: "Frontend de sistema de pasajes y pases de tránsito",
   },
   {
     title: "Inventory App React",

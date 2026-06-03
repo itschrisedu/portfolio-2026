@@ -11,30 +11,30 @@ export const projectMedia = {
       { src: gh("InventoryManagementSystem", "screenshots/stock.png"), alt: "Stock" },
     ],
   },
-  "inventory-system": {
-    thumbnail: "https://raw.githubusercontent.com/wiki/ExpressoBits/inventory-system/demo.gif",
+  "movipass-frontend": {
+    thumbnail: "/images/projects/movipass-frontend.png",
     images: [
       {
-        src: "https://raw.githubusercontent.com/wiki/ExpressoBits/inventory-system/demo.gif",
-        alt: "Inventory demo",
+        src: "/images/projects/movipass-frontend.png",
+        alt: "MoviPass Frontend Dashboard",
       },
     ],
   },
   "inventory-app-react": {
-    thumbnail: "https://opengraph.githubassets.com/1/itschrisedu/inventory-app-react",
+    thumbnail: "/images/projects/inventory-app-react.png",
     images: [
       {
-        src: "https://opengraph.githubassets.com/1/itschrisedu/inventory-app-react",
-        alt: "Inventory App React",
+        src: "/images/projects/inventory-app-react.png",
+        alt: "Inventory App React Dashboard",
       },
     ],
   },
   "erp-servidor-local": {
-    thumbnail: "https://opengraph.githubassets.com/1/itschrisedu/ERP-Servidor-Local",
+    thumbnail: "/images/projects/erp-servidor-local.png",
     images: [
       {
-        src: "https://opengraph.githubassets.com/1/itschrisedu/ERP-Servidor-Local",
-        alt: "ERP Local Server",
+        src: "/images/projects/erp-servidor-local.png",
+        alt: "Local Server ERP Dashboard",
       },
     ],
   },
@@ -56,8 +56,11 @@ export const projectMedia = {
     ],
   },
   "cementery-web": {
-    thumbnail: gh("cementery_web", "public/municipio-pillaro.jpg"),
-    images: [{ src: gh("cementery_web", "public/municipio-pillaro.jpg"), alt: "Cemetery management" }],
+    thumbnail: "/images/projects/cementery-web.png",
+    images: [
+      { src: "/images/projects/cementery-web.png", alt: "Cemetery Web Management Dashboard" },
+      { src: gh("cementery_web", "public/municipio-pillaro.jpg"), alt: "GADM Píllaro - Municipio de Santiago de Píllaro" }
+    ],
   },
   "triangle-pos": {
     thumbnail: gh("triangle-pos", "public/images/screenshot.jpg"),
@@ -78,7 +81,7 @@ export const projectMedia = {
 
 export const projectSources = {
   "inventory-management": "https://github.com/itschrisedu/InventoryManagementSystem",
-  "inventory-system": "https://github.com/itschrisedu/inventory-system",
+  "movipass-frontend": "https://github.com/itschrisedu/movipass-frontend",
   "inventory-app-react": "https://github.com/itschrisedu/inventory-app-react",
   "erp-servidor-local": "https://github.com/itschrisedu/ERP-Servidor-Local",
   erp: "https://github.com/itschrisedu/ERP",
