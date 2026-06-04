@@ -224,9 +224,9 @@ const setupSectionsAnimation = ({
     if (isLandscape) {
       // Four sections: details, description, services, interests
       const DETAILS_DELAY = 0;
-      const DESCRIPTION_DELAY = 0.3;
-      const SERVICES_DELAY = 0.6;
-      const INTERESTS_DELAY = 0.85;
+      const DESCRIPTION_DELAY = 0.2;
+      const SERVICES_DELAY = 0.4;
+      const INTERESTS_DELAY = 0.6;
 
       // Details animation (first, only on landscape)
       tl.fromTo(contentDetails, { opacity: 0 }, { opacity: 1, duration: 0.15, ease: "power1.out" }, DETAILS_DELAY);
@@ -260,7 +260,7 @@ const setupSectionsAnimation = ({
       // Mobile: description, services, interests (details hidden on portrait)
       const DESCRIPTION_DELAY = 0;
       const SERVICES_DELAY = 0.4;
-      const INTERESTS_DELAY = 0.75;
+      const INTERESTS_DELAY = 0.65;
 
       // Description animation
       tl.fromTo(
