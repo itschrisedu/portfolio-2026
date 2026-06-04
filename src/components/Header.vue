@@ -206,6 +206,8 @@ const openContactModal = () => {
   &-dark {
     color: var(--color-white-400);
     --icon-color: var(--color-white-400);
+    --color-text-400: var(--color-white-400);
+    --color-text-300: var(--color-white-300);
   }
 
   &-get-in-touch {
